@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+}
+header{
+    text-align: center;
+    font-size: 40px; color:rgb(0, 0, 0); 
+    text-shadow: 1px 1px 1px rgb(255, 255, 255);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.flex-container{
+    display: flex;
+    height: auto;
+    background-color:#CBD9C1;
+    flex-wrap: wrap;
+    flex-flow: row-wrap;
+    justify-content: space-between;
+    align-content: space-around;
+  }
+  .flex-container>div{
+    color: white;
+    padding: 40px;
+    background-color: #c597ec;
+    margin: 10px;
+    border: 1px solid grey;
+    width: 200px;
+    height: 200px;
+  }

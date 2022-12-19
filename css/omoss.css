@@ -1,0 +1,32 @@
+#wrappeross{
+   display: grid;
+   background-color: antiquewhite;
+   width: 100%;
+   min-height: 90vh;
+   margin: auto;
+   grid-template-areas: 
+   "hd hd hd"
+   "s1 s1 as"
+   "ft ft ft";
+   grid-template-rows: 30% auto 20%;
+}
+header{
+    grid-area: hd;
+    background-color:#CBD9C1;
+    text-align: center;
+    font-size: 35px; color:#5E8C30; 
+    text-shadow: 1px 1px 1px black;
+    font-family: 'Times New Roman', Times, serif;
+}
+section{
+    grid-area: s1;
+    
+}
+aside{
+    grid-area: as;
+    background-color: brown;
+}
+footer{
+    grid-area: ft;
+    background-color: blueviolet;
+}
