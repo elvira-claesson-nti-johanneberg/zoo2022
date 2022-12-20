@@ -33,7 +33,7 @@ header h1, header p {
 nav{
     display: flex;
     grid-area: nv;
-    background-color:#CECEC6;
+    background-color:#258841;
     font-size: 20px; color: black;
     font-family: 'Times New Roman', Times, serif;
     justify-content: space-around;
@@ -63,9 +63,16 @@ aside{
     background-color: #8BB285;
     font-size: 20px; color: black;
     font-family: 'Times New Roman', Times, serif;
+    background-image: url(../misc/Untitled-1.jpg);
+    background-size: cover;
     
 }
 footer{
     grid-area: ft;
-    background-color: rgb(255, 255, 255);
+    background-color:#ffffff;
+}
+
+section img {
+    width: 100%;
+    height: 100%;
 }

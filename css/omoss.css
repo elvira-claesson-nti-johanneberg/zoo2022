@@ -1,32 +1,40 @@
 #wrappeross{
    display: grid;
-   background-color: antiquewhite;
+   background-color: rgb(239,239,239);
    width: 100%;
    min-height: 90vh;
    margin: auto;
    grid-template-areas: 
    "hd hd hd"
-   "s1 s1 as"
+   "s1 s1 s1"
    "ft ft ft";
    grid-template-rows: 30% auto 20%;
 }
 header{
     grid-area: hd;
-    background-color:#CBD9C1;
+    background-image: url(../img/animals/header.jpg);
+    background-size: cover;
     text-align: center;
-    font-size: 35px; color:#5E8C30; 
+    font-size: 50px; color:#d9f4be; 
     text-shadow: 1px 1px 1px black;
     font-family: 'Times New Roman', Times, serif;
 }
+header a{
+    font-size: 20px; color:#d9f4be;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif; 
+    text-align: top;
+}
+
 section{
-    grid-area: s1;
-    
+    grid-area: s1;   
 }
-aside{
-    grid-area: as;
-    background-color: brown;
+section img{
+    width: 100%;
+    height: 100%;
 }
+
 footer{
     grid-area: ft;
-    background-color: blueviolet;
+    background-color:rgb(239,239,239);
 }
